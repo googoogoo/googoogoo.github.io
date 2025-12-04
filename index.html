@@ -1,12 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=h1, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - Minimal Website</title>
+    <meta name="description" content="A minimal, accessible static website example.">
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafafa;
+            color: #222;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        main {
+            max-width: 600px;
+            padding: 2em;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+        }
+        h1 {
+            margin-top: 0;
+            letter-spacing: 1px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            margin-top: 2em;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia a facere veniam dignissimos totam assumenda nam tempore atque quisquam quibusdam consequatur, optio earum maiores, esse quas qui? Non, vero expedita?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit, natus illo nesciunt adipisci voluptas quibusdam! Odio, reiciendis recusandae consequuntur necessitatibus ipsa, saepe dignissimos mollitia sapiente vel nostrum possimus dolorem.</p>
+    <main>
+        <h1>Hello world!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia a facere veniam dignissimos totam assumenda nam tempore atque quisquam quibusdam consequatur, optio earum maiores, esse quas qui?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit, natus illo nesciunt adipisci voluptas quibusdam! Odio, reiciendis recusandae consequuntur necessitatibus ipsa, saepe dignissi?</p>
+    </main>
+    <footer>
+        &copy; 2025 googoogoo
+    </footer>
 </body>
 </html>
